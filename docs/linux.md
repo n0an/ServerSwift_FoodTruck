@@ -2,7 +2,7 @@
 
 #### Contents
 - [Install Swift on Linux](#install-swift-on-linux)
-- [Install and run CouchDB](#install-and-run couchdb)
+- [Install and run CouchDB](#install-and-run-couchdb)
 - [Run server swift](#run-server-swift)
 
 #### Install Swift on Linux
