@@ -1,0 +1,17 @@
+db:
+ image: couchdb
+ ports:
+  - "5984:5984"
+ environment:
+  - COUCHDB_USER=anton
+  - COUCHDB_PASSWORD=123456
+
+app:
+ image: ibmcom/swift-ubuntu
+ ports:
+  - "8080:8080"
+ volumes:
+  - .:/root/FoodTruckAPI
+ command: bash -c "cd /root/FoodTruckAPI && swift package clean && swift build && swift test"
+ links:
+  - db:localhost

@@ -1,0 +1,6 @@
+framework module Pods_FoodTruckClient {
+  umbrella header "Pods-FoodTruckClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
