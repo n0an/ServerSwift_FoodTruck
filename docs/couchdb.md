@@ -33,3 +33,7 @@ curl -X DELETE "<ID_OF_ENTITY>?rev=<REV_OF_ENTITY>"
 ```
 curl -X DELETE "$COUCH/polls/5e6ba44d3bc61c3241bc0894b3000263?rev=2-28f0a0a699b4f093b717df88c86f2e8c"
 ```
+9. CouchDB dashboard:
+```
+http://localhost:5984/_utils/
+```
