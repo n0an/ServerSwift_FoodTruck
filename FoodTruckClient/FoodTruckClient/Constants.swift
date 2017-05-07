@@ -14,7 +14,8 @@ typealias callback = (_ success: Bool) -> ()
 
 // Base URL
 //let BASE_API_URL = "http://localhost:8080/api/v1"
-let BASE_API_URL = "https://nag-foodtruck-api.eu-gb.mybluemix.net/api/v1"
+//let BASE_API_URL = "https://nag-foodtruck-api.eu-gb.mybluemix.net/api/v1"
+let BASE_API_URL = "http://107.170.69.104:8080/api/v1"
 
 // GET all food trucks
 let GET_ALL_FT_URL = "\(BASE_API_URL)/trucks"

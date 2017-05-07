@@ -26,21 +26,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKD-14-4mP">
-                                        <rect key="frame" x="136.5" y="13" width="103.5" height="52"/>
+                                        <rect key="frame" x="120.5" y="36" width="134" height="29"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WTF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1F-P1-seL">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="52"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1F-P1-seL">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WTF-logo" translatesAutoresizingMaskIntoConstraints="NO" id="iwQ-kR-2O6">
-                                                <rect key="frame" x="51.5" y="0.0" width="52" height="52"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="52" id="G1C-bq-cC2"/>
-                                                    <constraint firstAttribute="height" constant="52" id="fB5-I6-wgF"/>
-                                                </constraints>
-                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRa-IF-hr7">
@@ -165,7 +158,7 @@
                                             <action selector="backButtonTappedWithSender:" destination="e3l-il-DJZ" eventType="touchUpInside" id="adY-ZY-1gq"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add New Truck" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jC-5c-qfI">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add New Restaurant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jC-5c-qfI">
                                         <rect key="frame" x="43" y="26" width="290" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
@@ -183,7 +176,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="m1h-KP-Nrn">
                                 <rect key="frame" x="56" y="105" width="263" height="210"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Food Truck Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IG3-Hs-h2P">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Restaurant Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IG3-Hs-h2P">
                                         <rect key="frame" x="0.0" y="0.0" width="263" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -216,17 +209,17 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Wsw-WN-9gv">
-                                <rect key="frame" x="73.5" y="345" width="228" height="30"/>
+                                <rect key="frame" x="55.5" y="345" width="264" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppp-ig-1s4">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="30"/>
-                                        <state key="normal" title="Add New Truck"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="141" height="30"/>
+                                        <state key="normal" title="Add New Restaurant"/>
                                         <connections>
                                             <action selector="addButtonTappedWithSender:" destination="e3l-il-DJZ" eventType="touchUpInside" id="J6h-J8-dqO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxs-cj-6fS">
-                                        <rect key="frame" x="180" y="0.0" width="48" height="30"/>
+                                        <rect key="frame" x="216" y="0.0" width="48" height="30"/>
                                         <state key="normal" title="Cancel"/>
                                         <connections>
                                             <action selector="cancelButtonTappedWithSender:" destination="e3l-il-DJZ" eventType="touchUpInside" id="M3r-Fu-GQ4"/>
@@ -702,7 +695,6 @@
     </scenes>
     <resources>
         <image name="Plus" width="56" height="56"/>
-        <image name="WTF-logo" width="424" height="236"/>
         <image name="White-backarrow" width="34" height="73"/>
     </resources>
 </document>
